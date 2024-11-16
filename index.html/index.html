@@ -1,11 +1,606 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>conecta y compra </title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+				<div class="container hero">
+					<div class="customer-support">
+						<i class="fa-solid fa-headset"></i>
+						<div class="content-customer-support">
+							<span class="text">Soporte al cliente</span>
+							<span class="number">123-456-7890</span>
+						</div>
+					</div>
+
+
+					<div class="container-user">
+						<i class="fa-solid fa-user"></i>
+						<i class="fa-solid fa-basket-shopping"></i>
+						<div class="content-shopping-cart">
+							<span class="text">Carrito</span>
+							<span class="number">(0)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">compras</a></li>
+						<li><a href="#">ofertas</a></li>
+						<li><a href="#">cupones</a></li>
+						<li><a href="#">Más</a></li>
+						<li><a href="#">Blog</a></li>
+					</ul>
+
+					<form class="search-form">
+						<input type="search" placeholder="Buscar..." />
+						<button class="btn-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
+				</nav>
+			</div>
+		</header>
+		 
+		
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="../index.html/imagenes/ropa.avif" class="d-block w-100" alt="ropa">
+			  </div>
+			  <div class="carousel-item2">
+				<img src="../index.html/imagenes/zapatillas.jpg" class="d-block w-100" alt="zapatillas">
+			  </div>
+			  <div class="carousel-item3">
+				<img src="../index.html/imagenes/maquillaje.webp" class="d-block w-100" alt="maquillaje1">   
+		  
+			  </div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>   
+		  
+			  <span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="visually-hidden">Next</span>
+			</button>
+		  </div>
+
+		  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">   
+
+			<div class="carousel-indicators">
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			</div>
+
+		
+		<main class="main-content">
+			<section class="container container-features">
+				<div class="card-feature">
+					<i class="fa-solid fa-plane-up"></i>
+					<div class="feature-content">
+						<span>Envío gratuito a nivel mundial</span>
+						<p>En pedido superior a $150</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-wallet"></i>
+					<div class="feature-content">
+						<span>Contrareembolso</span>
+						<p>100% garantía de devolución de dinero</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-gift"></i>
+					<div class="feature-content">
+						<span>Tarjeta regalo especial</span>
+						<p>Ofrece bonos especiales con regalo</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-headset"></i>
+					<div class="feature-content">
+						<span>Servicio al cliente 24/7</span>
+						<p>LLámenos 24/7 al 123-456-7890</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-categories">
+				<h1 class="heading-1">Mejores Categorías</h1>
+				<div class="container-categories">
+					<div class="card-category category-jardinypiletas">
+						<p>jardin y piletas</p>
+						<span> Ver Mas</span>
+					</div>
+					<div class="card-category category-deportes">
+						<p> Deportes</p>
+						<span> Ver Mas</span>
+					</div>
+					<div class="card-category category-moda">
+						<p> Moda</p>
+						<span> Ver Mas </span>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-products">
+				<h1 class="heading-1">Mejores Productos</h1>
+
+				<div class="container-options">
+					<span class="active">Destacados</span>
+					<span>Más recientes</span>
+					<span>Mejores Vendidos</span>
+				</div>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="../index.html/imagenes/gammer.png" alt="gammer" />
+							<span class="discount">-13%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3></h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$4.60 <span>$5.30</span> Gammer</p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="../index.html/imagenes/televisores.jpg"
+								alt="televisores"
+							/>
+							<span class="discount">-22%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3></h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5.70 <span>$7.30</span> Televisores</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="../index.html/imagenes/lavarropa.png"
+								alt="lavarropa"
+							/>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3></h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$3.20 Lavadoras</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="../index.html/imagenes/heladeras.jpeg" alt="heladeras" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3></h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5.60  Heladeras</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="gallery">
+				<img
+					src="../index.html/imagenes/ariculares.webp"
+					alt="Gallery Img1"
+					class="gallery-img-1"
+				/><img
+					src="../index.html/imagenes/computadora.jpeg"
+					alt="Gallery Img2"
+					class="gallery-img-2"
+				/><img
+					src="../index.html/imagenes/fitnes.jpeg"
+					alt="Gallery Img3"
+					class="gallery-img-3"
+				/><img
+					src="../index.html/imagenes/ventiladores.jpeg"
+					alt="Gallery Img4"
+					class="gallery-img-4"
+				/><img
+					src="../index.html/imagenes/herramientas.jpg"
+					alt="Gallery Img5"
+					class="gallery-img-5"
+				/>
+			</section>
+
+			<section class="container specials">
+				<h1 class="heading-1">Especiales</h1>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="../index.html/imagenes/celulares.jpeg" alt="celulares" />
+							<span class="discount">-13%</span>
+							<div class="button-group">
+								<p></p>
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3></h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price"> <span>$5.30</span> Celulares </p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="../index.html/imagenes/planchitas.png"
+								alt="planchitas"
+							/>
+							<span class="discount">-22%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3></h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5.70 <span>$7.30</span> Planchitas </p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="../index.html/imagenes/secador.jpeg" alt="secador" />
+							<span class="discount">-30%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3></h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$3.85 <span>$5.50</span> Secadores</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="../index.html/imagenes/microondas.jpeg" alt="microondas" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3></h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5.60 Microondas</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container blogs">
+				<h1 class="heading-1">Últimos Blogs</h1>
+
+				<div class="container-blogs">
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="../index.html/imagenes/sckincare.jpeg" alt="sckincare" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3> Rutina de skincare y cuidado de la piel</h3>
+							<span> Noviembre 2024</span>
+							<p>
+								Crear una rutina de skincare es un paso fundamental para mantener una piel sana y radiante! Aquí te guiaré a través de los pasos básicos y te daré algunos consejos sobre los mejores productos.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="../index.html/imagenes/perfume.jpeg" alt="perfume" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3> Perfumes </h3>
+							<span>Noviembre 2024</span>
+							<p>
+								Elegir el perfume perfecto puede ser una tarea emocionante, pero también abrumadora. Para ayudarte en esta búsqueda, te presento una selección de fragancias que destacan por su calidad y versatilidad, junto con algunas imágenes que te inspirarán.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="../index.html/imagenes/maquillaje1.webp" alt="maquillaje" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Maquillaje</h3>
+							<span>Noviembre 2024</span>
+							<p>
+								Maquillaje natural, looks para ocasiones especiales, tutoriales para principiantes, reseñas de productos, etc.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: 71 Pennington Lane Vernon Rockville, CT
+								06066
+							</li>
+							<li>Teléfono: 123-456-7890</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: conecta@compra.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<i class="fa-brands fa-instagram"></i>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información de envios</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Desarrollado por Programación para el mundo &copy; 2024
+					</p>
+
+					<img src="../index.html/imagenes/metodo-de-pago.png" alt="Pagos">
+					<img src="../index.html/imagenes/mercado pago.jpg" alt="mercado pago">
+				</div>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
